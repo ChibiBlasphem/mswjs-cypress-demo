@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "msw-cypress/commands"]
+  },
+  "include": [
+    "**/*.ts",
+    "../src/mocks/handlers.ts"
+  ]
+}
